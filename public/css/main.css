@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+/* Typography */
 body {
     min-height: 100vh;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    font-family: 'IBM Plex Serif', serif;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+code, pre {
+    font-family: 'JetBrains Mono', monospace;
 }
 
 #background-container {
@@ -35,12 +49,18 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    font-size: 24px;
+    color: var(--text-primary);
+}
+
+.theme-toggle .toggle-icon {
+    font-size: 28px;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
 .theme-toggle:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
+    border-color: var(--accent);
 }
 
 .theme-toggle:active {
@@ -51,10 +71,12 @@ body {
 body.dark-mode .theme-toggle {
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.3);
+    color: var(--light-primary);
 }
 
 /* Light mode button styling */
 body.light-mode .theme-toggle {
     background: rgba(0, 0, 0, 0.1);
     border-color: rgba(0, 0, 0, 0.2);
+    color: var(--dark-primary);
 }

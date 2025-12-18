@@ -1,0 +1,48 @@
+/* Color Theme Variables */
+:root {
+  /* Dark Theme Colors */
+  --dark-primary: #03060A;
+  --dark-secondary: #0D1117;
+  
+  /* Light Theme Colors */
+  --light-primary: #FFF4DF;
+  --light-secondary: #FFFCEC;
+  
+  /* Accent & Wireframe */
+  --accent: #DD885C;
+  --wireframe: #7D8486;
+  
+  /* Layout Variables */
+  --sidebar-width: 300px;
+  --content-max-width: 800px;
+  --spacing-desktop: 48px;
+  --spacing-mobile: 16px;
+  --breakpoint-mobile: 768px;
+  --transition-speed: 0.3s;
+  --transition-easing: ease;
+  
+  /* Z-index Layers */
+  --z-background: -1;
+  --z-content: 1;
+  --z-sidebar: 100;
+  --z-overlay: 200;
+  --z-controls: 1000;
+}
+
+/* Dark Mode Color Variables */
+body.dark-mode {
+  --bg-primary: var(--dark-primary);
+  --bg-secondary: var(--dark-secondary);
+  --text-primary: var(--light-primary);
+  --text-secondary: var(--light-secondary);
+  --grid-color: var(--wireframe);
+}
+
+/* Light Mode Color Variables */
+body.light-mode {
+  --bg-primary: var(--light-primary);
+  --bg-secondary: var(--light-secondary);
+  --text-primary: var(--dark-primary);
+  --text-secondary: var(--dark-secondary);
+  --grid-color: var(--wireframe);
+}

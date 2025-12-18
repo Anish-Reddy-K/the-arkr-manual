@@ -6,59 +6,56 @@
     let gridContainer = null;
 
     function loadDarkStarfield() {
-        // Remove grid background if it exists
-        if (gridContainer) {
-            gridContainer.remove();
-            gridContainer = null;
-        }
-
-        // Ensure body has dark-mode class
+        // Switch body class immediately (no transition)
         document.body.classList.remove('light-mode');
         document.body.classList.add('dark-mode');
 
-        // Create canvas for starfield if it doesn't exist
+        // Get or create canvas for starfield
         if (!starfieldCanvas) {
-            const container = document.getElementById('background-container');
-            starfieldCanvas = document.createElement('canvas');
-            starfieldCanvas.id = 'starfield-canvas';
-            starfieldCanvas.className = 'starfield-background';
-            container.appendChild(starfieldCanvas);
+            starfieldCanvas = document.getElementById('starfield-canvas');
+            if (!starfieldCanvas) {
+                const container = document.getElementById('background-container');
+                if (container) {
+                    starfieldCanvas = document.createElement('canvas');
+                    starfieldCanvas.id = 'starfield-canvas';
+                    starfieldCanvas.className = 'starfield-background';
+                    container.appendChild(starfieldCanvas);
+                }
+            }
         }
 
-        // Initialize starfield after a short delay to ensure canvas is ready
-        setTimeout(() => {
-            if (window.darkStarfieldBg && window.darkStarfieldBg.init) {
-                window.darkStarfieldBg.init('starfield-canvas');
-            }
-        }, 10);
+        // Show canvas, hide grid
+        if (starfieldCanvas) {
+            starfieldCanvas.style.display = 'block';
+        }
+
+        // Initialize starfield immediately
+        if (starfieldCanvas && window.darkStarfieldBg && window.darkStarfieldBg.init) {
+            window.darkStarfieldBg.init('starfield-canvas');
+        }
     }
 
     function loadLightGrid() {
-        // Remove starfield canvas if it exists
-        if (starfieldCanvas) {
-            starfieldCanvas.remove();
-            starfieldCanvas = null;
-        }
-
-        // Apply grid background to body
+        // Switch body class immediately (no transition)
         document.body.classList.remove('dark-mode');
         document.body.classList.add('light-mode');
-        
-        // Initialize grid background
-        if (window.lightGridBg && window.lightGridBg.setTheme) {
-            window.lightGridBg.setTheme('light');
+
+        // Hide starfield canvas immediately
+        if (starfieldCanvas) {
+            starfieldCanvas.style.display = 'none';
         }
     }
 
     function switchTheme() {
+        const toggleIcon = document.querySelector('.toggle-icon');
         if (currentTheme === 'dark') {
             currentTheme = 'light';
             loadLightGrid();
-            document.querySelector('.toggle-icon').textContent = '☀️';
+            toggleIcon.textContent = 'light_mode';
         } else {
             currentTheme = 'dark';
             loadDarkStarfield();
-            document.querySelector('.toggle-icon').textContent = '🌙';
+            toggleIcon.textContent = 'dark_mode';
         }
     }
 
