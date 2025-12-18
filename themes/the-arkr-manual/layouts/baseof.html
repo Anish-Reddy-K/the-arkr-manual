@@ -39,8 +39,12 @@
       <div class="content-wrapper">
         <!-- Zone A: Title and Description -->
         <header class="header-zone-a">
-          <h1 class="site-title">THE ARKR MANUAL</h1>
-          <p class="site-description">{{ block "description" . }}A free, illustrated Computer Science curriculum{{ end }}</p>
+          <div class="zone-a-left">
+            <p class="site-description">{{ block "description" . }}A free, illustrated Computer Science curriculum{{ end }}</p>
+          </div>
+          <div class="zone-a-right">
+            <h1 class="site-title">THE ARKR MANUAL</h1>
+          </div>
         </header>
         
         <!-- Zone B: Breadcrumb and Actions (Sticky) -->
