@@ -161,16 +161,41 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  border: 1px solid var(--wireframe);
+  border: 1px solid var(--text-primary);
   color: var(--text-primary);
   cursor: pointer;
   padding: 0;
-  transition: all 0.2s ease;
+  transition: opacity 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  opacity: 1;
 }
 
+/* Hover: simple opacity change */
 .action-button:hover {
-  background-color: var(--text-primary);
-  color: var(--bg-secondary);
+  opacity: 0.8;
+}
+
+/* Active state: filled with opposite color of theme */
+.action-button.active {
+  opacity: 1;
+}
+
+/* Dark mode: active button filled with light color */
+body.dark-mode .action-button.active {
+  background-color: var(--light-primary);
+  color: var(--dark-primary);
+  border-color: var(--light-primary);
+}
+
+/* Light mode: active button filled with dark color */
+body.light-mode .action-button.active {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+  border-color: var(--dark-primary);
+}
+
+/* Hover on active button: subtle opacity change */
+.action-button.active:hover {
+  opacity: 0.9;
 }
 
 .action-button .material-symbols-outlined {

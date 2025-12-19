@@ -21,6 +21,35 @@
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/components/dark_starfield_bg.css">
   <link rel="stylesheet" href="/css/components/light_grid_bg.css">
+  
+  
+  <script>
+    (function() {
+      try {
+        const saved = localStorage.getItem('arkr-theme');
+        if (saved) {
+          const state = JSON.parse(saved);
+          const theme = state.theme;
+          
+          window.__savedTheme = theme;
+          
+          if (theme === 'light') {
+            document.documentElement.classList.add('prefer-light-mode');
+            document.documentElement.classList.remove('prefer-dark-mode');
+          } else {
+            document.documentElement.classList.add('prefer-dark-mode');
+            document.documentElement.classList.remove('prefer-light-mode');
+          }
+        } else {
+          window.__savedTheme = 'dark';
+          document.documentElement.classList.add('prefer-dark-mode');
+        }
+      } catch (e) {
+        window.__savedTheme = 'dark';
+        document.documentElement.classList.add('prefer-dark-mode');
+      }
+    })();
+  </script>
 </head>
 <body class="dark-mode">
   

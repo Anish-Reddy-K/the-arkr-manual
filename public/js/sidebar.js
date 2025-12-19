@@ -74,12 +74,8 @@
             const saved = localStorage.getItem(SIDEBAR_STORAGE_KEY);
             if (saved) {
                 const state = JSON.parse(saved);
-                // Only restore if saved within last 24 hours
-                const dayInMs = 24 * 60 * 60 * 1000;
-                if (Date.now() - state.timestamp < dayInMs) {
-                    sidebarOpen = state.open;
-                    return true; // Return true if we loaded a saved state
-                }
+                sidebarOpen = state.open;
+                return true; // Return true if we loaded a saved state
             }
         } catch (e) {
             console.warn('Could not load sidebar state from localStorage:', e);
@@ -114,23 +110,18 @@
         isMobile = width < MOBILE_BREAKPOINT;
         isOverlap = width >= MOBILE_BREAKPOINT && width < OVERLAP_BREAKPOINT;
         
-        // Load saved sidebar state (only if user has explicitly set it)
+        // Load saved sidebar state
         const savedState = loadSidebarState();
         
-        // Default behavior: open on desktop, closed on mobile/overlap
+        // Default behavior: open on desktop, closed on mobile/overlap (only if no saved state)
         if (!savedState) {
-            // No saved preference - use defaults
             if (isMobile || isOverlap) {
                 sidebarOpen = false;
             } else {
                 sidebarOpen = true; // Desktop: open by default
             }
-        } else {
-            // User has a saved preference, but respect breakpoint rules
-            if (isOverlap && sidebarOpen) {
-                sidebarOpen = false; // Auto-hide at overlap breakpoint
-            }
         }
+        // If saved state exists, use it (respect user preference)
         
         // Set initial state
         updateSidebarState();

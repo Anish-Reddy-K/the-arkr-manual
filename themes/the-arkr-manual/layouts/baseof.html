@@ -20,6 +20,35 @@
   <link rel="stylesheet" href="{{ "css/header.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/components/dark_starfield_bg.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/components/light_grid_bg.css" | relURL }}">
+  
+  <!-- Apply theme immediately before body renders -->
+  <script>
+    (function() {
+      try {
+        const saved = localStorage.getItem('arkr-theme');
+        if (saved) {
+          const state = JSON.parse(saved);
+          const theme = state.theme;
+          // Store theme preference for main.js to read
+          window.__savedTheme = theme;
+          // Apply theme class to html element
+          if (theme === 'light') {
+            document.documentElement.classList.add('prefer-light-mode');
+            document.documentElement.classList.remove('prefer-dark-mode');
+          } else {
+            document.documentElement.classList.add('prefer-dark-mode');
+            document.documentElement.classList.remove('prefer-light-mode');
+          }
+        } else {
+          window.__savedTheme = 'dark';
+          document.documentElement.classList.add('prefer-dark-mode');
+        }
+      } catch (e) {
+        window.__savedTheme = 'dark';
+        document.documentElement.classList.add('prefer-dark-mode');
+      }
+    })();
+  </script>
 </head>
 <body class="dark-mode">
   <!-- Background Container -->
