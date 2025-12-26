@@ -1,5 +1,6 @@
 ---
-title: "The Manual"
+title: "Markdown Formatting Test"
+slug: "markdown-test"
 ---
 
 # Heading Level 1
@@ -121,9 +122,10 @@ You can also use [reference-style links][reference] and [automatic links](https:
 
 ## Images
 
+
 You can also add images with titles:
 
-![Image with title](/images/test-image.png "This is a test image")
+![Image with title](../images/test-image.png "This is a test image")
 
 ## Horizontal Rules
 
@@ -228,3 +230,4 @@ def example():
 ## End of Test Content
 
 This test file demonstrates all common markdown elements. You can add your own image to test image rendering.
+

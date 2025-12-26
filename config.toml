@@ -2,3 +2,12 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'The Arkr Manual'
 theme = 'the-arkr-manual'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      taskLists = true
+      typographer = true
+      linkify = true
