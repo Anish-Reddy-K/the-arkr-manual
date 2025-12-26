@@ -152,8 +152,8 @@
   /* Buttons now in Zone B, no need for fixed positioning */
 }
 
-/* Small mobile - solid background, no gaps */
-@media (max-width: 550px) {
+/* Mobile and tablet - ensure all containers match background */
+@media (max-width: 1199px) {
   .main-container,
   .main-content,
   .content-wrapper {

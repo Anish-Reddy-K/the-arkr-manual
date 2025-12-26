@@ -33,14 +33,27 @@ code, pre {
     z-index: -1;
 }
 
-/* Hide background on mobile - solid color matching content */
-@media (max-width: 550px) {
+/* Hide background on mobile and tablet - solid color matching content */
+/* Only desktop (>= 1200px) shows starfield/grid backgrounds */
+@media (max-width: 1199px) {
     #background-container {
         display: none;
     }
     
-    body,
-    html {
+    /* Set page background to secondary colors on mobile/tablet */
+    /* Dark mode: #0D1117 */
+    html.prefer-dark-mode,
+    body.dark-mode {
+        background-color: #0D1117;
+    }
+    
+    /* Light mode: #FFFCEC */
+    html.prefer-light-mode,
+    body.light-mode {
+        background-color: #FFFCEC;
+    }
+    
+    .main-container {
         background-color: var(--bg-secondary);
     }
 }
