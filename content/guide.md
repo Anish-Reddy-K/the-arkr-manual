@@ -1,6 +1,8 @@
 ---
-title: "Markdown Formatting Guide"
+title: "Markdown Guide"
 slug: "markdown-guide"
+weight: 1
+draft: true
 ---
 
 ## Include Email component
@@ -20,6 +22,9 @@ This is a test page to demonstrate all markdown formatting elements for The ARKR
 *italic text*
 ***bold and italic together***
 ~~strikethrough text~~
+`code` for technical terms
+<mark>Highlighted text</mark>
+<sub>Subscript</sub> and <sup>Superscript</sup>
 
 This is a paragraph with `inline code` and some regular text.
 
@@ -73,10 +78,12 @@ It preserves whitespace and formatting.
 ## Links
 Here's an [inline link](https://arkr.ca) and another [link with title](https://arkr.ca/manual "The ARKR Manual").
 
-## Images
-You can also add images with titles:
+Email link: <user@example.com>
 
-![Image with title](../images/test-image.png "This is a test image")
+## Images
+![Image](/images/test4.png)
+
+![Image with title](/images/test3.png "This is a test image")
 
 ## Horizontal Rules
 ---
@@ -110,3 +117,11 @@ This is the second paragraph. It's separated from the first by a blank line.
 
 This line has two spaces at the end.  
 This creates a line break without starting a new paragraph.
+
+## Special Characters
+- Copyright: ©
+- Trademark: ™
+- Registered: ®
+- Em dash: —
+- En dash: –
+- Ellipsis: …

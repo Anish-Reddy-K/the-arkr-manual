@@ -103,7 +103,9 @@ Here are various link formats:
 
 Here are image examples:
 
-![Local image](/images/test2.png)
+![Local image](/images/test3.png)
+
+![Local image](/images/test4.png)
 
 ## Code Blocks
 
