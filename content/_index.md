@@ -23,31 +23,31 @@ I am doing this completely for free, on my own time, simply because I just like 
 ## FAQ's
 
 <details>
-<summary><strong>Is this really free?</strong></summary>
+<summary>Is this really free?</summary>
 
 Yes. It is open-source and free forever. I'm building this for fun, to help and to learn.
 </details>
 
 <details>
-<summary><strong>Who is this for?</strong></summary>
+<summary>Who is this for?</summary>
 
 Anyone who wants to understand how computers actually work. Whether you're a student, a self-taught dev, or a senior engineer brushing up on the basics. We start at rock bottom and go all the way up.
 </details>
 
 <details>
-<summary><strong>Who are you?</strong></summary>
+<summary>Who are you?</summary>
 
 I'm an engineer and a builder. I research these topics obsessively until I understand them well enough to explain them simply. My goal isn't to lecture you, but to document the path to mastery clearly and visually.
 </details>
 
 <details>
-<summary><strong>Where should I start?</strong></summary>
+<summary>Where should I start?</summary>
 
 Chapter 1. We start at the very basics (Bits & Information) and build our way up to the cloud (AI & Distributed Systems).
 </details>
 
 <details>
-<summary><strong>What is the outcome?</strong></summary>
+<summary>What is the outcome?</summary>
 
 You will have understood the fundamentals that make up the software we use everyday. The curriculum will end with a Case Studies chapter where we will reverse-engineer the architecture of modern giants like how **WhatsApp** handles billion-user concurrency, how **Git** actually tracks your file history, and how **Spotify** streams audio without latency and many more cases.
 </details>

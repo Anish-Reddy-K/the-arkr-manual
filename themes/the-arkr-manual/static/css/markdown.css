@@ -23,7 +23,18 @@
   text-align: center;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--wireframe);
+}
+
+.article-header .article-number,
+.article-number {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin: 0 0 0rem 0 !important;
+  padding: 0;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .article-title {
@@ -31,19 +42,44 @@
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin: 0 0 0.75rem 0;
+  margin: 2rem 0 !important;
   padding: 0;
+  padding-bottom: 0;
   line-height: 1.2;
   text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border-bottom: none !important; /* Remove border from article title */
 }
 
-.article-reading-time {
+.article-meta {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--text-secondary);
   margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+.article-reading-time {
+  color: var(--text-secondary);
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.article-meta-separator {
+  color: var(--accent);
+  margin: 0 0.5rem;
+  display: inline;
+}
+
+.article-author {
+  color: var(--text-secondary);
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 .article-body {
@@ -69,7 +105,7 @@
 }
 
 .article-body h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 3rem 0 1.5rem 0;
@@ -79,7 +115,7 @@
 }
 
 .article-body h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 2.5rem 0 1.25rem 0;
@@ -89,7 +125,7 @@
 }
 
 .article-body h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 2rem 0 1rem 0;
@@ -97,7 +133,7 @@
 }
 
 .article-body h4 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 1.5rem 0 0.75rem 0;
@@ -105,7 +141,7 @@
 }
 
 .article-body h5 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 1.25rem 0 0.75rem 0;
@@ -113,7 +149,7 @@
 }
 
 .article-body h6 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-secondary);
   margin: 1rem 0 0.5rem 0;
@@ -273,7 +309,15 @@
 /* Mobile adjustments for article structure */
 @media (max-width: 767px) {
   .article-title {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Smaller on mobile but still bigger than H1 in article body */
+  }
+  
+  .article-number {
+    font-size: 0.75rem;
+  }
+  
+  .article-meta {
+    font-size: 0.75rem;
   }
   
   .draft-title {
@@ -300,9 +344,9 @@
    Headings
    ========================================================================== */
 
-.content-area article h1 {
+.content-area article h1:not(.article-title) {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 3rem 0 1.5rem 0;
@@ -313,7 +357,7 @@
 
 .content-area article h2 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 2.5rem 0 1.25rem 0;
@@ -324,7 +368,7 @@
 
 .content-area article h3 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 2rem 0 1rem 0;
@@ -333,7 +377,7 @@
 
 .content-area article h4 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 1.5rem 0 0.75rem 0;
@@ -342,7 +386,7 @@
 
 .content-area article h5 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 1.25rem 0 0.75rem 0;
@@ -799,16 +843,16 @@ body.light-mode .code-copy-button.copied {
     font-size: 1rem;
   }
   
-  .content-area article h1 {
-    font-size: 2rem;
+  .content-area article h1:not(.article-title) {
+    font-size: 1.5rem;
   }
   
   .content-area article h2 {
-    font-size: 1.75rem;
+    font-size: 1.375rem;
   }
   
   .content-area article h3 {
-    font-size: 1.375rem;
+    font-size: 1.125rem;
   }
   
   .content-area article pre {
