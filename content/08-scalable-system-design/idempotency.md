@@ -1,7 +1,7 @@
 ---
 title: "Idempotency"
 slug: "idempotency"
-weight: 9
+weight: 10
 draft: true
 ---
 

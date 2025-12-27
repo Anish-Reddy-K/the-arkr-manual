@@ -1,7 +1,7 @@
 ---
 title: "CAP Theorem"
 slug: "cap-theorem"
-weight: 11
+weight: 12
 draft: true
 ---
 

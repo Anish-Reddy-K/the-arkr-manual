@@ -1,7 +1,7 @@
 ---
 title: "Advanced Prompting"
 slug: "advanced-prompting"
-weight: 27
+weight: 29
 draft: true
 ---
 

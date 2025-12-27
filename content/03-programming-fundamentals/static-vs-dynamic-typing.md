@@ -1,7 +1,7 @@
 ---
 title: "Static vs. Dynamic Typing"
 slug: "static-vs-dynamic-typing"
-weight: 8
+weight: 10
 draft: true
 ---
 

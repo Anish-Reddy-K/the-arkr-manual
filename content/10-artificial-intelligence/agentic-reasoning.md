@@ -1,7 +1,7 @@
 ---
 title: "Agentic Reasoning"
 slug: "agentic-reasoning"
-weight: 24
+weight: 26
 draft: true
 ---
 

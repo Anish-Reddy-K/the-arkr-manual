@@ -1,7 +1,7 @@
 ---
 title: "Distributed Consensus"
 slug: "distributed-consensus"
-weight: 7
+weight: 8
 draft: true
 ---
 

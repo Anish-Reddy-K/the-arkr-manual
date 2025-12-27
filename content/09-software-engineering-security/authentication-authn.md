@@ -1,7 +1,7 @@
 ---
 title: "Authentication (AuthN)"
 slug: "authentication-authn"
-weight: 6
+weight: 7
 draft: true
 ---
 

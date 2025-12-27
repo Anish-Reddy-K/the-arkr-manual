@@ -1,7 +1,7 @@
 ---
 title: "Session Management"
 slug: "session-management"
-weight: 9
+weight: 10
 draft: true
 ---
 

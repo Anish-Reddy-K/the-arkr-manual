@@ -1,7 +1,7 @@
 ---
 title: "Design Patterns"
 slug: "design-patterns"
-weight: 15
+weight: 17
 draft: true
 ---
 

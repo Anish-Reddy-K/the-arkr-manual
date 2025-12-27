@@ -1,7 +1,7 @@
 ---
 title: "Sampling Parameters"
 slug: "sampling-parameters"
-weight: 13
+weight: 14
 draft: true
 ---
 

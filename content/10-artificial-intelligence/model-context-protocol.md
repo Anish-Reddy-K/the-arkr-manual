@@ -1,7 +1,7 @@
 ---
 title: "Model Context Protocol (MCP)"
 slug: "model-context-protocol"
-weight: 26
+weight: 28
 draft: true
 ---
 

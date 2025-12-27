@@ -1,7 +1,7 @@
 ---
 title: "Model Hosting & Platforms"
 slug: "model-hosting-platforms"
-weight: 17
+weight: 19
 draft: true
 ---
 

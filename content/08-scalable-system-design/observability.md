@@ -1,7 +1,7 @@
 ---
 title: "Observability"
 slug: "observability"
-weight: 14
+weight: 16
 draft: true
 ---
 

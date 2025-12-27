@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure as Code"
 slug: "infrastructure-as-code"
-weight: 5
+weight: 6
 draft: true
 ---
 

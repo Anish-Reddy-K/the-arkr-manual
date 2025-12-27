@@ -1,7 +1,7 @@
 ---
 title: "Auth Protocols"
 slug: "auth-protocols"
-weight: 8
+weight: 9
 draft: true
 ---
 

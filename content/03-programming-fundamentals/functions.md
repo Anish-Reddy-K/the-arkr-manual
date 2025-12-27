@@ -1,7 +1,7 @@
 ---
 title: "Functions"
 slug: "functions"
-weight: 10
+weight: 12
 draft: true
 ---
 

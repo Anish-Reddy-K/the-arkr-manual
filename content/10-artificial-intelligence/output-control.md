@@ -1,7 +1,7 @@
 ---
 title: "Output Control"
 slug: "output-control"
-weight: 14
+weight: 15
 draft: true
 ---
 

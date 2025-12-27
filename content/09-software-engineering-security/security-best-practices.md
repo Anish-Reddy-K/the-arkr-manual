@@ -1,7 +1,7 @@
 ---
 title: "Security Best Practices"
 slug: "security-best-practices"
-weight: 13
+weight: 14
 draft: true
 ---
 

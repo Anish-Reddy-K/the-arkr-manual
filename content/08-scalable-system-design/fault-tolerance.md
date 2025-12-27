@@ -1,7 +1,7 @@
 ---
 title: "Fault Tolerance"
 slug: "fault-tolerance"
-weight: 10
+weight: 11
 draft: true
 ---
 

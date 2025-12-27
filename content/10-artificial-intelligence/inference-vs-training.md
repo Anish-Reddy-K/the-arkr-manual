@@ -1,7 +1,7 @@
 ---
 title: "Inference vs. Training"
 slug: "inference-vs-training"
-weight: 10
+weight: 11
 draft: true
 ---
 

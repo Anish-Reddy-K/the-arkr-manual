@@ -1,7 +1,7 @@
 ---
 title: "RAG Architecture"
 slug: "rag-architecture"
-weight: 18
+weight: 20
 draft: true
 ---
 

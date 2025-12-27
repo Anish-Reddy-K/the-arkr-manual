@@ -1,7 +1,7 @@
 ---
 title: "Common Terminology"
 slug: "common-terminology"
-weight: 9
+weight: 10
 draft: true
 ---
 

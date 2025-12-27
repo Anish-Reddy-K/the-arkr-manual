@@ -1,7 +1,7 @@
 ---
 title: "Data Types"
 slug: "data-types"
-weight: 7
+weight: 9
 draft: true
 ---
 

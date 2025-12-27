@@ -1,6 +1,6 @@
 ---
 title: "CI/CD"
-slug: "cicd"
+slug: "ci-cd"
 weight: 4
 draft: true
 ---

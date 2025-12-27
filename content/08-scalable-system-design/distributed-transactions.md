@@ -1,7 +1,7 @@
 ---
 title: "Distributed Transactions"
 slug: "distributed-transactions"
-weight: 8
+weight: 9
 draft: true
 ---
 

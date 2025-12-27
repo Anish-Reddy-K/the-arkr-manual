@@ -1,7 +1,7 @@
 ---
 title: "Use Cases for Embeddings"
 slug: "use-cases-for-embeddings"
-weight: 33
+weight: 36
 draft: true
 ---
 

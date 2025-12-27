@@ -1,7 +1,7 @@
 ---
 title: "RAG Pipeline"
 slug: "rag-pipeline"
-weight: 19
+weight: 21
 draft: true
 ---
 

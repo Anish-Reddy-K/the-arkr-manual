@@ -1,7 +1,7 @@
 ---
 title: "Neural Networks"
 slug: "neural-networks"
-weight: 6
+weight: 7
 draft: true
 ---
 

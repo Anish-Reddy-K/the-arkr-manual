@@ -1,7 +1,7 @@
 ---
 title: "Learning Process"
 slug: "learning-process"
-weight: 7
+weight: 8
 draft: true
 ---
 

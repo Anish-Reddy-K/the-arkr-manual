@@ -1,7 +1,7 @@
 ---
 title: "Fine-tuning vs. Prompting"
 slug: "fine-tuning-vs-prompting"
-weight: 16
+weight: 18
 draft: true
 ---
 

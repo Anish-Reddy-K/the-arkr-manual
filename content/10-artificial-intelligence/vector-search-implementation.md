@@ -1,7 +1,7 @@
 ---
 title: "Vector Search"
 slug: "vector-search"
-weight: 21
+weight: 23
 draft: true
 ---
 

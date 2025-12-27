@@ -1,7 +1,7 @@
 ---
 title: "Building Agents"
 slug: "building-agents"
-weight: 25
+weight: 27
 draft: true
 ---
 

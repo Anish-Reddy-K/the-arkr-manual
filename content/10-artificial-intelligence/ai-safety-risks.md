@@ -1,7 +1,7 @@
 ---
 title: "AI Safety & Risks"
 slug: "ai-safety-risks"
-weight: 31
+weight: 33
 draft: true
 ---
 

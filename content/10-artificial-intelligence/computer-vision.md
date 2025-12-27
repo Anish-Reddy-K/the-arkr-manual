@@ -1,7 +1,7 @@
 ---
 title: "Computer Vision"
 slug: "computer-vision"
-weight: 8
+weight: 9
 draft: true
 ---
 

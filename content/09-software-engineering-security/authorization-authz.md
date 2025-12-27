@@ -1,7 +1,7 @@
 ---
 title: "Authorization (AuthZ)"
 slug: "authorization-authz"
-weight: 7
+weight: 8
 draft: true
 ---
 

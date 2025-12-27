@@ -1,7 +1,7 @@
 ---
 title: "Paradigm: OOP"
 slug: "paradigm-oop"
-weight: 13
+weight: 15
 draft: true
 ---
 

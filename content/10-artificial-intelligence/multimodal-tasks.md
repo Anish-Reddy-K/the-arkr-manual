@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Tasks"
 slug: "multimodal-tasks"
-weight: 28
+weight: 30
 draft: true
 ---
 

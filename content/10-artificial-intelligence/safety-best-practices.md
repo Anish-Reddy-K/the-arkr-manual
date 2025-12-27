@@ -1,7 +1,7 @@
 ---
 title: "Safety Best Practices"
 slug: "safety-best-practices"
-weight: 32
+weight: 34
 draft: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Vector Databases"
 slug: "vector-databases"
-weight: 20
+weight: 22
 draft: true
 ---
 

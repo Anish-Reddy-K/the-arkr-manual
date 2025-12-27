@@ -1,7 +1,7 @@
 ---
 title: "Variables & Scope"
 slug: "variables-scope"
-weight: 6
+weight: 8
 draft: true
 ---
 

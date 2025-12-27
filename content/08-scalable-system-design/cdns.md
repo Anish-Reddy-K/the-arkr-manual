@@ -1,7 +1,7 @@
 ---
 title: "CDNs"
 slug: "cdns"
-weight: 6
+weight: 7
 draft: true
 ---
 

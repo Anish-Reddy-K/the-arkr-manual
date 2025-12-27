@@ -1,7 +1,7 @@
 ---
 title: "Consistent Hashing"
 slug: "consistent-hashing"
-weight: 11
+weight: 12
 draft: true
 ---
 

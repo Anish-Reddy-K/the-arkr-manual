@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Implementation"
 slug: "multimodal-implementation"
-weight: 30
+weight: 32
 draft: true
 ---
 
