@@ -1,6 +1,6 @@
 ---
-title: "Storage: SSD"
-slug: "storage-ssd"
+title: "SSD Storage"
+slug: "ssd-storage"
 weight: 10
 draft: true
 ---

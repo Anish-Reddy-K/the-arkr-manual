@@ -1,7 +1,7 @@
 ---
-title: "Regex"
+title: "Regular Expressions"
 slug: "regex"
-weight: 16
+weight: 17
 draft: true
 ---
 

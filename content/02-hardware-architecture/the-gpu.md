@@ -1,6 +1,6 @@
 ---
-title: "The GPU"
-slug: "the-gpu"
+title: "GPU"
+slug: "gpu"
 weight: 12
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Vector Search Implementation"
-slug: "vector-search-implementation"
+title: "Vector Search"
+slug: "vector-search"
 weight: 21
 draft: true
 ---

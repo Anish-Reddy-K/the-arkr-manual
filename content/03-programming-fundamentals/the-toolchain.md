@@ -1,7 +1,7 @@
 ---
-title: "The Toolchain"
-slug: "the-toolchain"
-weight: 4
+title: "Toolchain"
+slug: "toolchain"
+weight: 5
 draft: true
 ---
 

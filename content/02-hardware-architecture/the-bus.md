@@ -1,6 +1,6 @@
 ---
-title: "The Bus"
-slug: "the-bus"
+title: "Bus"
+slug: "bus"
 weight: 8
 draft: true
 ---

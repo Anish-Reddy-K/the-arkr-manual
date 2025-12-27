@@ -1,6 +1,6 @@
 ---
-title: "Relational (SQL)"
-slug: "relational-sql"
+title: "Relational Databases (SQL)"
+slug: "relational-databases-sql"
 weight: 2
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
-title: "The Switch"
-slug: "the-switch"
+title: "Switch"
+slug: "Switch"
 weight: 3
 draft: true
 ---

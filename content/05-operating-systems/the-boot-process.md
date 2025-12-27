@@ -1,6 +1,6 @@
 ---
-title: "The Boot Process"
-slug: "the-boot-process"
+title: "Boot Process"
+slug: "boot-process"
 weight: 2
 draft: true
 ---

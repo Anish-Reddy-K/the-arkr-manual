@@ -1,6 +1,6 @@
 ---
-title: "The Learning Process"
-slug: "the-learning-process"
+title: "Learning Process"
+slug: "learning-process"
 weight: 7
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
-title: "The Kernel"
-slug: "the-kernel"
+title: "Kernel"
+slug: "kernel"
 weight: 1
 draft: true
 ---

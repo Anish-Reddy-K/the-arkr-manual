@@ -1,6 +1,6 @@
 ---
-title: "The Network Stack"
-slug: "the-network-stack"
+title: "Network Stack"
+slug: "network-stack"
 weight: 1
 draft: true
 ---

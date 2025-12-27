@@ -1,6 +1,6 @@
 ---
-title: "The Bit"
-slug: "the-bit"
+title: "Bit"
+slug: "bit"
 weight: 1
 draft: true
 ---

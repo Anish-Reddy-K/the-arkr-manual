@@ -1,6 +1,6 @@
 ---
-title: "The Database"
-slug: "the-database"
+title: "Database"
+slug: "database"
 weight: 1
 draft: true
 ---

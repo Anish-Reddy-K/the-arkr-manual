@@ -1,6 +1,6 @@
 ---
-title: "The CPU"
-slug: "the-cpu"
+title: "CPU"
+slug: "cpu"
 weight: 4
 draft: true
 ---

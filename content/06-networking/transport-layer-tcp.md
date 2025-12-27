@@ -1,7 +1,7 @@
 ---
 title: "Transport Layer: TCP"
 slug: "transport-layer-tcp"
-weight: 7
+weight: 6
 draft: true
 ---
 

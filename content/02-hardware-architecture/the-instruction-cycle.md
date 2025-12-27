@@ -1,6 +1,6 @@
 ---
-title: "The Instruction Cycle"
-slug: "the-instruction-cycle"
+title: "Instruction Cycle"
+slug: "instruction-cycle"
 weight: 5
 draft: true
 ---

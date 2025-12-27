@@ -1,6 +1,6 @@
 ---
-title: "The Model Landscape"
-slug: "the-model-landscape"
+title: "Model Landscape"
+slug: "model-landscape"
 weight: 15
 draft: true
 ---

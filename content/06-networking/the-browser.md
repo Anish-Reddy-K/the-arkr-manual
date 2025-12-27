@@ -1,6 +1,6 @@
 ---
-title: "The Browser"
-slug: "the-browser"
+title: "Browser"
+slug: "browser"
 weight: 12
 draft: true
 ---

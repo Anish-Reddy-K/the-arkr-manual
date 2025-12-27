@@ -1,6 +1,6 @@
 ---
-title: "Automation"
-slug: "automation"
+title: "Task Automation"
+slug: "task-automation"
 weight: 14
 draft: true
 ---

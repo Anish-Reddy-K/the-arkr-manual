@@ -1,6 +1,6 @@
 ---
-title: "The Clock"
-slug: "the-clock"
+title: "Clock"
+slug: "clock"
 weight: 1
 draft: true
 ---

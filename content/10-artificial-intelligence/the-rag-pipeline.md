@@ -1,6 +1,6 @@
 ---
-title: "The RAG Pipeline"
-slug: "the-rag-pipeline"
+title: "RAG Pipeline"
+slug: "rag-pipeline"
 weight: 19
 draft: true
 ---

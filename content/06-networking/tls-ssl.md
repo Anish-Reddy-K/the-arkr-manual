@@ -1,6 +1,6 @@
 ---
 title: "TLS/SSL"
-slug: "tlsssl"
+slug: "tls-ssl"
 weight: 11
 draft: true
 ---

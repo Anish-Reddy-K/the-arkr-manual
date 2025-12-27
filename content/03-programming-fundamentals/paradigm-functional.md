@@ -1,7 +1,7 @@
 ---
 title: "Paradigm: Functional"
 slug: "paradigm-functional"
-weight: 13
+weight: 14
 draft: true
 ---
 

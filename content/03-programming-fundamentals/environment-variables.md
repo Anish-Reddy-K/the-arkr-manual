@@ -1,7 +1,7 @@
 ---
 title: "Environment Variables"
 slug: "environment-variables"
-weight: 17
+weight: 18
 draft: true
 ---
 

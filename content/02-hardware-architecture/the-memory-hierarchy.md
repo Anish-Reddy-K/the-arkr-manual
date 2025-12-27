@@ -1,6 +1,6 @@
 ---
-title: "The Memory Hierarchy"
-slug: "the-memory-hierarchy"
+title: "Memory Hierarchy"
+slug: "memory-hierarchy"
 weight: 7
 draft: true
 ---

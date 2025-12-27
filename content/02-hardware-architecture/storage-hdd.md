@@ -1,6 +1,6 @@
 ---
-title: "Storage: HDD"
-slug: "storage-hdd"
+title: "HDD Storage"
+slug: "hdd-storage"
 weight: 9
 draft: true
 ---

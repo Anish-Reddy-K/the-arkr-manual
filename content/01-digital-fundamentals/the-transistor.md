@@ -1,6 +1,6 @@
 ---
-title: "The Transistor"
-slug: "the-transistor"
+title: "Transistor"
+slug: "transistor"
 weight: 4
 draft: true
 ---

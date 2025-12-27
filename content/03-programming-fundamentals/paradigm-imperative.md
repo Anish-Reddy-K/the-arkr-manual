@@ -1,7 +1,7 @@
 ---
 title: "Paradigm: Imperative"
 slug: "paradigm-imperative"
-weight: 11
+weight: 12
 draft: true
 ---
 
