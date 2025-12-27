@@ -4,7 +4,7 @@
     <input 
       type="email" 
       name="email" 
-      placeholder="Enter your email" 
+      placeholder="> enter your email" 
       required 
       class="email-input"
       aria-label="Email address"
@@ -13,7 +13,6 @@
       <span class="button-text">JOIN THE MANUAL</span>
     </button>
   </form>
-  <div class="email-message"></div>
 </div>
 
 <script>
@@ -25,7 +24,6 @@
   
   components.forEach(function(component) {
     const form = component.querySelector('.email-signup-form');
-    const messageDiv = component.querySelector('.email-message');
     
     if (!form) return;
     
@@ -40,14 +38,9 @@
       const buttonText = submitButton.querySelector('.button-text');
       const originalButtonText = buttonText.textContent;
       
-      // Clear previous messages
-      if (messageDiv) {
-        messageDiv.textContent = '';
-        messageDiv.className = 'email-message';
-      }
-      
       // Show loading state
       submitButton.disabled = true;
+      submitButton.classList.remove('email-submit-button-success', 'email-submit-button-error');
       buttonText.textContent = 'Saving...';
       
       fetch('/submit.php', {
@@ -80,35 +73,45 @@
       })
       .then(data => {
         if (data.success) {
-          // Hide form and show success message
-          form.style.display = 'none';
-          if (messageDiv) {
-            messageDiv.textContent = data.message;
-            messageDiv.className = 'email-message email-message-success';
+          // Show success message in button
+          submitButton.classList.add('email-submit-button-success');
+          submitButton.classList.remove('email-submit-button-error');
+          buttonText.textContent = data.message || 'Submitted!';
+          submitButton.disabled = true; // Keep disabled on success
+          // Hide the input field
+          const emailInput = form.querySelector('.email-input');
+          if (emailInput) {
+            emailInput.style.display = 'none';
           }
         } else {
-          // Show error message and re-enable button
-          if (messageDiv) {
-            messageDiv.textContent = data.message || 'An error occurred. Please try again.';
-            messageDiv.className = 'email-message email-message-error';
-          }
+          // Show error message in button and re-enable
+          submitButton.classList.add('email-submit-button-error');
+          submitButton.classList.remove('email-submit-button-success');
+          buttonText.textContent = data.message || 'An error occurred. Please try again.';
           submitButton.disabled = false;
-          buttonText.textContent = originalButtonText;
+          // Reset after 3 seconds
+          setTimeout(function() {
+            buttonText.textContent = originalButtonText;
+            submitButton.classList.remove('email-submit-button-error');
+          }, 3000);
         }
       })
       .catch(error => {
-        // Show error and re-enable button
+        // Show error in button and re-enable
         console.error('Email signup error:', error);
-        if (messageDiv) {
-          // Use the error message if it's informative, otherwise show generic message
-          const errorMessage = error.message && error.message.includes('Server') 
-            ? error.message 
-            : 'Network error. Please check your connection and try again.';
-          messageDiv.textContent = errorMessage;
-          messageDiv.className = 'email-message email-message-error';
-        }
+        submitButton.classList.add('email-submit-button-error');
+        submitButton.classList.remove('email-submit-button-success');
+        // Use the error message if it's informative, otherwise show generic message
+        const errorMessage = error.message && error.message.includes('Server') 
+          ? error.message 
+          : 'Network error. Please try again.';
+        buttonText.textContent = errorMessage;
         submitButton.disabled = false;
-        buttonText.textContent = originalButtonText;
+        // Reset after 3 seconds
+        setTimeout(function() {
+          buttonText.textContent = originalButtonText;
+          submitButton.classList.remove('email-submit-button-error');
+        }, 3000);
       });
     });
   });

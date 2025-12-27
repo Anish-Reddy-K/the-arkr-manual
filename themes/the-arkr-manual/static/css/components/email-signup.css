@@ -4,7 +4,18 @@
   margin: 2rem 0;
   padding: 1.5rem;
   border: 2px solid var(--wireframe);
-  background-color: var(--bg-secondary);
+  /* Slightly different background from main content */
+  background-color: var(--bg-primary);
+}
+
+/* Dark mode: slightly lighter than bg-secondary */
+body.dark-mode .email-signup-component {
+  background-color: #151920; /* Between dark-primary and dark-secondary */
+}
+
+/* Light mode: slightly darker than bg-secondary */
+body.light-mode .email-signup-component {
+  background-color: #FFF8E8; /* Slightly darker than light-secondary */
 }
 
 .email-signup-text {
@@ -59,6 +70,12 @@
   border: 2px solid var(--accent);
   cursor: pointer;
   box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.email-submit-button:hover:not(:disabled) {
+  background-color: #C97A4F; /* Slightly darker shade of accent */
+  border-color: #C97A4F;
 }
 
 .email-submit-button:disabled {
@@ -70,36 +87,15 @@
   display: inline-block;
 }
 
-.email-message {
-  margin-top: 1rem;
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 0.875rem;
-  min-height: 1.25rem;
-  line-height: 1.4;
+/* Success state - button shows success message */
+.email-submit-button-success {
+  background-color: var(--accent);
+  border-color: var(--accent);
 }
 
-.email-message-success {
-  color: var(--accent);
-}
-
-.email-message-error {
-  color: var(--accent);
-}
-
-/* Desktop: Horizontal layout */
-@media (min-width: 768px) {
-  .email-signup-form {
-    flex-direction: row;
-    align-items: stretch;
-  }
-  
-  .email-input {
-    flex: 1;
-  }
-  
-  .email-submit-button {
-    width: auto;
-    flex-shrink: 0;
-  }
+/* Error state - button shows error message */
+.email-submit-button-error {
+  background-color: #C97A4F; /* Slightly darker for error state */
+  border-color: #C97A4F;
 }
 
