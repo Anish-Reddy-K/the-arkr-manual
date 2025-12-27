@@ -1,7 +1,7 @@
 ---
 title: "The Bit"
 slug: "the-bit"
-weight: 2
+weight: 1
 draft: true
 ---
 

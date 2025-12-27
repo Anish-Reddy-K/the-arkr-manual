@@ -1,7 +1,7 @@
 ---
 title: "Analog vs. Digital"
 slug: "analog-vs-digital"
-weight: 1
+weight: 2
 draft: true
 ---
 

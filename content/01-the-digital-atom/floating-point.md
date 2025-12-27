@@ -1,5 +1,5 @@
 ---
-title: "Floating Point"
+title: "Floating-Point Numbers"
 slug: "floating-point"
 weight: 12
 draft: true

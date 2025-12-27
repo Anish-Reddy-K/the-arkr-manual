@@ -1,4 +1,4 @@
 ---
-title: "01. The Digital Atom"
+title: "01. Digital Fundamentals"
 weight: 1
 ---
