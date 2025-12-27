@@ -11,8 +11,7 @@
       <h1>{{ .Title }}</h1>
       <p>This chapter contains the following articles:</p>
       <ul>
-        {{- $pages := where .Pages "Draft" "ne" true -}}
-        {{- range $pages.ByWeight -}}
+        {{- range .Pages.ByWeight -}}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{- end -}}
       </ul>

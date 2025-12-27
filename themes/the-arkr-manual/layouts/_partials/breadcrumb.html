@@ -7,16 +7,11 @@
 {{- if .IsPage -}}
   {{- $currentPage := . -}}
   {{- $parent := .Parent -}}
-  {{- $env := getenv "HUGO_ENV" | default "prod" -}}
-  {{- $isDev := eq $env "dev" -}}
   
-  {{- /* Get all articles across all sections */ -}}
+  {{- /* Get all articles across all sections (including drafts) */ -}}
   {{- $allArticles := slice -}}
   {{- range site.Sections.ByWeight -}}
     {{- $pages := .RegularPages -}}
-    {{- if not $isDev -}}
-      {{- $pages = where $pages "Draft" "ne" true -}}
-    {{- end -}}
     {{- range $pages.ByWeight -}}
       {{- $allArticles = $allArticles | append . -}}
     {{- end -}}

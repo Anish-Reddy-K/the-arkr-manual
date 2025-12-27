@@ -141,14 +141,14 @@
   background-color: var(--bg-secondary);
   border-bottom: 2px solid var(--wireframe);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Align to right on mobile (breadcrumb hidden) */
   align-items: center;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
 }
 
 .breadcrumb {
-  display: flex;
+  display: none; /* Hidden on mobile by default */
   align-items: center;
   gap: 0;
   font-family: 'JetBrains Mono', monospace;
@@ -194,6 +194,12 @@
   color: var(--text-primary);
 }
 
+/* Hide prev/next buttons on mobile - must override .action-button display: flex */
+.breadcrumb-nav .breadcrumb-nav-prev,
+.breadcrumb-nav .breadcrumb-nav-next {
+  display: none !important;
+}
+
 .breadcrumb-content {
   display: flex;
   align-items: center;
@@ -221,6 +227,18 @@
   font-weight: 600;
   /* Not clickable - just text */
   cursor: default;
+  /* Mobile: truncate long titles */
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block; /* Required for text-overflow to work */
+}
+
+/* Hide chapter title and separator on mobile and tablet - show only article title */
+.breadcrumb-chapter,
+.breadcrumb-separator {
+  display: none;
 }
 
 .action-cluster {
@@ -302,6 +320,7 @@ body.light-mode .action-button.active {
   
   .header-zone-b {
     padding: 0.75rem 1.5rem;
+    justify-content: space-between; /* Breadcrumb visible, space between breadcrumb and actions */
   }
 
   /* Title Size increase */
@@ -311,6 +330,22 @@ body.light-mode .action-button.active {
   
   .content-area {
     padding: 3rem 2rem;
+  }
+
+  /* Tablet: allow longer titles but still truncate if needed */
+  .breadcrumb-item {
+    max-width: 300px;
+  }
+
+  /* Show breadcrumb on tablet and up */
+  .breadcrumb {
+    display: flex;
+  }
+
+  /* Show prev/next buttons on tablet and up */
+  .breadcrumb-nav .breadcrumb-nav-prev,
+  .breadcrumb-nav .breadcrumb-nav-next {
+    display: flex !important;
   }
 }
 
@@ -355,5 +390,19 @@ body.light-mode .action-button.active {
   
   .header-zone-b {
     padding: 0.75rem 2rem;
+  }
+
+  /* Show chapter title and separator on desktop only */
+  .breadcrumb-chapter,
+  .breadcrumb-separator {
+    display: inline;
+  }
+
+  /* Desktop: no truncation - show full title */
+  .breadcrumb-item {
+    max-width: none;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
   }
 }
