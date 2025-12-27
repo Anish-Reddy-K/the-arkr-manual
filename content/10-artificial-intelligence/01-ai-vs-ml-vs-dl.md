@@ -5,4 +5,4 @@ weight: 1
 draft: true
 ---
 
-Definitions, the history, the hierarchy of intelligence.
+Definitions, the history of "Good Old Fashioned AI" (GOFAI) vs. connectionism, and the hierarchy of intelligence.
