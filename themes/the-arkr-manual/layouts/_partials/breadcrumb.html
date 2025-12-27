@@ -86,3 +86,34 @@
   {{- end -}}
 </div>
 
+<script>
+(function() {
+  'use strict';
+  
+  // Add click sound to breadcrumb navigation buttons
+  function initBreadcrumbSounds() {
+    const prevButton = document.querySelector('.breadcrumb-nav-prev:not(.breadcrumb-nav-disabled)');
+    const nextButton = document.querySelector('.breadcrumb-nav-next:not(.breadcrumb-nav-disabled)');
+    
+    if (prevButton && window.playClickSound) {
+      prevButton.addEventListener('click', function() {
+        window.playClickSound();
+      });
+    }
+    
+    if (nextButton && window.playClickSound) {
+      nextButton.addEventListener('click', function() {
+        window.playClickSound();
+      });
+    }
+  }
+  
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initBreadcrumbSounds);
+  } else {
+    initBreadcrumbSounds();
+  }
+})();
+</script>
+

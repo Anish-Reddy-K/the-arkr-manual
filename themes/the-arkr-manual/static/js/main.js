@@ -88,6 +88,11 @@
     }
 
     function switchTheme() {
+        // Play click sound
+        if (window.playClickSound) {
+            window.playClickSound();
+        }
+        
         if (currentTheme === 'dark') {
             currentTheme = 'light';
             loadLightGrid();

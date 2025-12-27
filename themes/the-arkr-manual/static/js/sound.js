@@ -5,6 +5,39 @@
     let soundEnabled = true;
     let soundToggle = null;
     let soundIcon = null;
+    let clickSound = null;
+
+    // Initialize click sound audio element
+    function initClickSound() {
+        if (!clickSound) {
+            clickSound = new Audio('/arkr-click.mp3');
+            clickSound.volume = 0.3; // Set volume to 30% for subtlety
+            clickSound.preload = 'auto';
+        }
+    }
+
+    // Play click sound only if sound is enabled
+    function playClickSound() {
+        if (!soundEnabled) {
+            return; // Don't play if sound is disabled
+        }
+        
+        if (!clickSound) {
+            initClickSound();
+        }
+        
+        // Reset audio to start and play
+        if (clickSound) {
+            clickSound.currentTime = 0;
+            clickSound.play().catch(function(error) {
+                // Silently fail if audio can't play (e.g., user hasn't interacted with page)
+                console.debug('Click sound playback prevented:', error);
+            });
+        }
+    }
+
+    // Export playClickSound function globally so other scripts can use it
+    window.playClickSound = playClickSound;
 
     function updateSoundState() {
         if (!soundToggle) {
@@ -30,8 +63,8 @@
         updateSoundState();
         saveSoundState();
         
-        // Placeholder for future sound functionality
-        console.log('Sound', soundEnabled ? 'enabled' : 'disabled');
+        // Don't play sound on the toggle button itself to avoid feedback loop
+        // The state change is visual (icon changes), which is sufficient feedback
     }
 
     function saveSoundState() {
@@ -62,6 +95,9 @@
     }
     
     function init() {
+        // Initialize click sound
+        initClickSound();
+        
         // Load saved state
         loadSoundState();
         

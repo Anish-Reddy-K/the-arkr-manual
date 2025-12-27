@@ -34,6 +34,12 @@
     
     form.addEventListener('submit', function(e) {
       e.preventDefault();
+      
+      // Play click sound
+      if (window.playClickSound) {
+        window.playClickSound();
+      }
+      
       const formData = new FormData(form);
       const submitButton = form.querySelector('.email-submit-button');
       const buttonText = submitButton.querySelector('.button-text');

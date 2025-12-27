@@ -46,6 +46,11 @@
     }
 
     function toggleSidebar() {
+        // Play click sound
+        if (window.playClickSound) {
+            window.playClickSound();
+        }
+        
         sidebarOpen = !sidebarOpen;
         updateSidebarState();
         saveSidebarState();
