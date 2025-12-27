@@ -1,0 +1,105 @@
+/* Email Signup Component */
+
+.email-signup-component {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 2px solid var(--wireframe);
+  background-color: var(--bg-secondary);
+}
+
+.email-signup-text {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.email-signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch;
+  width: 100%;
+}
+
+.email-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border: 2px solid var(--wireframe);
+  border-radius: 0;
+  outline: none;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.email-input:focus {
+  border-color: var(--accent);
+}
+
+.email-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.email-submit-button {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: var(--accent);
+  color: var(--light-primary);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.email-submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.email-submit-button .button-text {
+  display: inline-block;
+}
+
+.email-message {
+  margin-top: 1rem;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 0.875rem;
+  min-height: 1.25rem;
+  line-height: 1.4;
+}
+
+.email-message-success {
+  color: var(--accent);
+}
+
+.email-message-error {
+  color: var(--accent);
+}
+
+/* Desktop: Horizontal layout */
+@media (min-width: 768px) {
+  .email-signup-form {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .email-input {
+    flex: 1;
+  }
+  
+  .email-submit-button {
+    width: auto;
+    flex-shrink: 0;
+  }
+}
+

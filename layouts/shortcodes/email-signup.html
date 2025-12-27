@@ -1,0 +1,117 @@
+<div class="email-signup-component">
+  <p class="email-signup-text">I'll email you when a new article drops. No spam. No ads.</p>
+  <form class="email-signup-form" action="/submit.php" method="POST">
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Enter your email" 
+      required 
+      class="email-input"
+      aria-label="Email address"
+    >
+    <button type="submit" class="email-submit-button">
+      <span class="button-text">JOIN THE MANUAL</span>
+    </button>
+  </form>
+  <div class="email-message"></div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+  
+  // Find the form within this component (closest email-signup-component)
+  const components = document.querySelectorAll('.email-signup-component');
+  
+  components.forEach(function(component) {
+    const form = component.querySelector('.email-signup-form');
+    const messageDiv = component.querySelector('.email-message');
+    
+    if (!form) return;
+    
+    // Skip if already initialized
+    if (form.dataset.initialized === 'true') return;
+    form.dataset.initialized = 'true';
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const submitButton = form.querySelector('.email-submit-button');
+      const buttonText = submitButton.querySelector('.button-text');
+      const originalButtonText = buttonText.textContent;
+      
+      // Clear previous messages
+      if (messageDiv) {
+        messageDiv.textContent = '';
+        messageDiv.className = 'email-message';
+      }
+      
+      // Show loading state
+      submitButton.disabled = true;
+      buttonText.textContent = 'Saving...';
+      
+      fetch('/submit.php', {
+        method: 'POST',
+        body: formData
+      })
+      .then(async response => {
+        // Try to parse response as JSON, even if status is not ok
+        let data;
+        const contentType = response.headers.get('content-type');
+        
+        if (contentType && contentType.includes('application/json')) {
+          try {
+            data = await response.json();
+          } catch (e) {
+            throw new Error('Invalid JSON response from server');
+          }
+        } else {
+          // If not JSON, read as text to see what we got
+          const text = await response.text();
+          throw new Error('Server returned non-JSON response: ' + text.substring(0, 100));
+        }
+        
+        // If response was not ok, use the error message from the server if available
+        if (!response.ok) {
+          throw new Error(data.message || 'Server error: ' + response.status);
+        }
+        
+        return data;
+      })
+      .then(data => {
+        if (data.success) {
+          // Hide form and show success message
+          form.style.display = 'none';
+          if (messageDiv) {
+            messageDiv.textContent = data.message;
+            messageDiv.className = 'email-message email-message-success';
+          }
+        } else {
+          // Show error message and re-enable button
+          if (messageDiv) {
+            messageDiv.textContent = data.message || 'An error occurred. Please try again.';
+            messageDiv.className = 'email-message email-message-error';
+          }
+          submitButton.disabled = false;
+          buttonText.textContent = originalButtonText;
+        }
+      })
+      .catch(error => {
+        // Show error and re-enable button
+        console.error('Email signup error:', error);
+        if (messageDiv) {
+          // Use the error message if it's informative, otherwise show generic message
+          const errorMessage = error.message && error.message.includes('Server') 
+            ? error.message 
+            : 'Network error. Please check your connection and try again.';
+          messageDiv.textContent = errorMessage;
+          messageDiv.className = 'email-message email-message-error';
+        }
+        submitButton.disabled = false;
+        buttonText.textContent = originalButtonText;
+      });
+    });
+  });
+})();
+</script>
+
