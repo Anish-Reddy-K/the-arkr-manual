@@ -174,6 +174,27 @@
             }
         });
         
+        // Close sidebar when clicking outside (mobile and overlap only)
+        document.addEventListener('click', function(e) {
+            // Only handle click-outside on mobile/tablet when sidebar is open
+            if (!sidebarOpen || (!isMobile && !isOverlap)) {
+                return;
+            }
+            
+            // Don't close if clicking the menu toggle button (it handles its own toggle)
+            if (menuToggle && menuToggle.contains(e.target)) {
+                return;
+            }
+            
+            // Don't close if clicking inside the sidebar
+            if (sidebar && sidebar.contains(e.target)) {
+                return;
+            }
+            
+            // Click was outside sidebar - close it
+            closeSidebar();
+        });
+        
         // Handle window resize
         let resizeTimeout;
         window.addEventListener('resize', function() {
