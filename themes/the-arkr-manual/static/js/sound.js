@@ -11,7 +11,7 @@
     function initClickSound() {
         if (!clickSound) {
             clickSound = new Audio('/arkr-click.mp3');
-            clickSound.volume = 0.3; // Set volume to 30% for subtlety
+            clickSound.volume = 0.8; // Set volume to 30% for subtlety
             clickSound.preload = 'auto';
         }
     }
