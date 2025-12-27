@@ -13,7 +13,7 @@
         shootingStarSpawnInterval: { min: 5000, max: 10000 },
         maxShootingStars: 1,
         shootingStarSpeed: { min: 3, max: 6 },
-        trailLength: 150,
+        trailLength: 80,
         headGlowRadius: 6,
         trailGlowRadius: 3,
         headAlpha: 0.9,
