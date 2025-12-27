@@ -1,16 +1,75 @@
 {{- /*
   Breadcrumb Navigation
   Format: < CHAPTER TITLE / ARTICLE TITLE >
-  Chapter title from section's _index.md
-  Article title from page front matter
+  With prev/next navigation buttons
 */ -}}
 
 {{- if .IsPage -}}
+  {{- $currentPage := . -}}
   {{- $parent := .Parent -}}
+  {{- $env := getenv "HUGO_ENV" | default "prod" -}}
+  {{- $isDev := eq $env "dev" -}}
+  
+  {{- /* Get all articles across all sections */ -}}
+  {{- $allArticles := slice -}}
+  {{- range site.Sections.ByWeight -}}
+    {{- $pages := .RegularPages -}}
+    {{- if not $isDev -}}
+      {{- $pages = where $pages "Draft" "ne" true -}}
+    {{- end -}}
+    {{- range $pages.ByWeight -}}
+      {{- $allArticles = $allArticles | append . -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Find current article index */ -}}
+  {{- $currentIndex := -1 -}}
+  {{- range $index, $page := $allArticles -}}
+    {{- if eq $page.RelPermalink $currentPage.RelPermalink -}}
+      {{- $currentIndex = $index -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Get previous and next articles */ -}}
+  {{- $prevPage := false -}}
+  {{- $nextPage := false -}}
+  {{- if ge $currentIndex 0 -}}
+    {{- if gt $currentIndex 0 -}}
+      {{- $prevPage = index $allArticles (sub $currentIndex 1) -}}
+    {{- end -}}
+    {{- if lt $currentIndex (sub (len $allArticles) 1) -}}
+      {{- $nextPage = index $allArticles (add $currentIndex 1) -}}
+    {{- end -}}
+  {{- end -}}
+  
   {{- if and $parent (ne $parent.Kind "home") -}}
-    <span class="breadcrumb-chapter">{{ $parent.Title }}</span>
-    <span class="breadcrumb-separator">/</span>
-    <span class="breadcrumb-item">{{ .Title }}</span>
+    <div class="breadcrumb-nav">
+      {{- if $prevPage -}}
+        <a href="{{ $prevPage.RelPermalink }}" class="action-button breadcrumb-nav-prev" aria-label="Previous article">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </a>
+      {{- else -}}
+        <span class="action-button breadcrumb-nav-prev breadcrumb-nav-disabled" aria-label="No previous article">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </span>
+      {{- end -}}
+      
+      <span class="breadcrumb-content">
+        <span class="breadcrumb-chapter">{{ $parent.Title }}</span>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item">{{ .Title }}</span>
+      </span>
+      
+      {{- if $nextPage -}}
+        <a href="{{ $nextPage.RelPermalink }}" class="action-button breadcrumb-nav-next" aria-label="Next article">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      {{- else -}}
+        <span class="action-button breadcrumb-nav-next breadcrumb-nav-disabled" aria-label="No next article">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </span>
+      {{- end -}}
+    </div>
   {{- else -}}
     <span class="breadcrumb-item">{{ .Title }}</span>
   {{- end -}}
