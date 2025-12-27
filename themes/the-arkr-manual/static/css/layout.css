@@ -350,5 +350,51 @@
   }
 }
 
+/* Tablet/iPad adjustments for sidebar navigation (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sidebar-title {
+    font-size: 1rem;
+  }
+  
+  .sidebar-chapter-toggle {
+    font-size: 0.875rem; /* Larger for tablet */
+    padding: 0.75rem 0.5rem; /* More padding for better touch targets */
+    margin: 0.25rem 0;
+    min-height: 48px; /* Larger touch target for tablet */
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-article-link {
+    font-size: 0.875rem; /* Larger for tablet */
+    padding: 0.75rem 0.5rem; /* More padding for better touch targets */
+    line-height: 1.5;
+    -webkit-line-clamp: 3; /* Allow 3 lines for longer titles */
+    min-height: 48px; /* Larger touch target for tablet */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  
+  .sidebar-article-item {
+    margin: 0.03125rem 0; /* Minimal spacing between items */
+    padding-left: 0.5rem;
+    min-height: 48px; /* Larger touch target for tablet */
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-chapter {
+    margin-bottom: 0.5rem; /* More spacing between chapters */
+  }
+  
+  .sidebar-content {
+    padding: 1rem; /* More padding on tablet */
+  }
+  
+  .sidebar-header {
+    padding: 1rem; /* More padding on tablet */
+  }
+}
+
 
 
