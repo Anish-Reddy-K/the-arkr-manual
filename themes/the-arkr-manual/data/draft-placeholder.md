@@ -1,4 +1,4 @@
-> I'm still working on this article and will publish it soon. Enter your email below to be notified when it's done.
+> I'm still working on this article and will publish it soon.
 
 {{< email-signup >}}
 

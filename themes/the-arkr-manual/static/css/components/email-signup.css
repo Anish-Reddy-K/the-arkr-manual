@@ -4,20 +4,17 @@
   margin: 2rem 0;
   padding: 1.5rem;
   border: 2px solid var(--wireframe);
-  /* Slightly different background from main content */
   background-color: var(--bg-primary);
   width: 100%;
   box-sizing: border-box;
 }
 
-/* Dark mode: slightly lighter than bg-secondary */
 body.dark-mode .email-signup-component {
-  background-color: #151920; /* Between dark-primary and dark-secondary */
+  background-color: var(--bg-primary);
 }
 
-/* Light mode: slightly darker than bg-secondary */
 body.light-mode .email-signup-component {
-  background-color: #FFF8E8; /* Slightly darker than light-secondary */
+  background-color: var(--bg-primary);
 }
 
 .email-signup-text {
@@ -31,7 +28,7 @@ body.light-mode .email-signup-component {
 .email-signup-form {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1.5rem;
   align-items: stretch;
   width: 100%;
 }
@@ -41,7 +38,7 @@ body.light-mode .email-signup-component {
   padding: 0.75rem 1rem;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.9rem;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
   color: var(--text-primary);
   border: 2px solid var(--wireframe);
   border-radius: 0;
