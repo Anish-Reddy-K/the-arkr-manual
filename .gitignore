@@ -1,3 +1,7 @@
 /public
 .env
 .DS_Store
+.obsidian/
+content/attachments/
+content/excalidraw/
+content/templates/
