@@ -1,8 +1,9 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://manual.arkr.ca/'
 languageCode = 'en-us'
 title = 'The Arkr Manual'
 theme = 'the-arkr-manual'
 uglyURLs = true
+disableLiveReload = true
 
 [permalinks]
   # flat URL structure: /slug.html (with uglyURLs) - no chapter name in URL
