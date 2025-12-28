@@ -38,7 +38,7 @@ disableLiveReload = true
       typographer = true
       linkify = true
 
-# Sitemap configuration for SEO
+# sitemap configuration for SEO
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
