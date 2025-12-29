@@ -72,7 +72,19 @@ I'm an engineer and a builder. I research these topics obsessively until I under
 You will have understood the fundamentals that make up the software we use everyday. The curriculum will end with a Case Studies chapter where we will reverse-engineer the architecture of modern giants like how **WhatsApp** handles billion-user concurrency, how **Git** actually tracks your file history, and how **Spotify** streams audio without latency and many more cases.
 </details>
 
+## License
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **NonCommercial** — You may not use the material for commercial purposes
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
+
 ## Contributing
 
-Found a mistake or have feedback? Click "Feedback/issue?" on any article page to report it.
-
+Found a mistake or have feedback? Click "Feedback/issue?" on any article page to report it or open an issue in this repo.
