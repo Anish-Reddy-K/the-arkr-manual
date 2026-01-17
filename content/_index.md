@@ -4,7 +4,7 @@ title: "The AI Engineer's Handbook"
 The open-source blueprint for AI Engineering. A free, illustrated curriculum taking you from ML fundamentals to production AI systems.
 
 ## What is this?
-A structured curriculum for becoming an AI engineer. Clear explanations, visual diagrams, and practical knowledge — from ML foundations through LLMs, RAG architectures, and AI agents. No fluff. No scattered tutorials. Just a unified path to mastery.
+A structured curriculum for becoming an AI engineer. Clear explanations, visual diagrams, and practical knowledge - from ML foundations through LLMs, RAG architectures, and AI agents. No fluff. No scattered tutorials. Just a unified path to mastery.
 
 ## Why does this exist?
 Two reasons:
@@ -31,7 +31,7 @@ Yes. It is open-source and free forever. I'm building this for fun, to help and 
 <details>
 <summary>Who is this for?</summary>
 
-Developers transitioning into AI, engineers building AI-powered products, and anyone who wants to understand how modern AI systems actually work. Whether you're shipping your first RAG app or trying to understand transformer architectures — this is for you.
+Developers transitioning into AI, engineers building AI-powered products, and anyone who wants to understand how modern AI systems actually work. Whether you're shipping your first RAG app or trying to understand transformer architectures, this is for you.
 </details>
 
 <details>
