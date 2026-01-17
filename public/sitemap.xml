@@ -2,1127 +2,1127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/index.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/01-foundations/index.html</loc>
+    <loc>http://localhost:54074/01-foundations/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/ai-coding-tools.html</loc>
+    <loc>http://localhost:54074/ai-coding-tools.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/ai-vs-ml-vs-dl.html</loc>
+    <loc>http://localhost:54074/ai-vs-ml-vs-dl.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/ai-vs-ml-vs-dl.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/ai-vs-ml-vs-dl.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/big-o-notation.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/big-o-notation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/bit.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/bit.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/clock.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/clock.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/database.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/database.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/embeddings-vector-search.html</loc>
+    <loc>http://localhost:54074/embeddings-vector-search.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/kernel.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/kernel.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/machine-code.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/machine-code.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/network-stack.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/network-stack.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/python-essentials.html</loc>
+    <loc>http://localhost:54074/python-essentials.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/scaling.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/scaling.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-blog.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-blog.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-distributed-cache.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-distributed-cache.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-feed.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-feed.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-link-shortener.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-link-shortener.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/transformers.html</loc>
+    <loc>http://localhost:54074/transformers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/version-control.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/version-control.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/index.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/02-ml-fundamentals/index.html</loc>
+    <loc>http://localhost:54074/02-ml-fundamentals/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/analog-vs-digital.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/analog-vs-digital.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/arrays.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/arrays.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/assembly-language.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/assembly-language.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/boot-process.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/boot-process.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/git-version-control.html</loc>
+    <loc>http://localhost:54074/git-version-control.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/how-llms-work.html</loc>
+    <loc>http://localhost:54074/how-llms-work.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/link-layer.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/link-layer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/load-balancing.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/load-balancing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/memory-elements.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/memory-elements.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/rag-systems.html</loc>
+    <loc>http://localhost:54074/rag-systems.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/relational-databases-sql.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/relational-databases-sql.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/sdlc.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/sdlc.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/statistics-for-ml.html</loc>
+    <loc>http://localhost:54074/statistics-for-ml.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/statistics-for-ml.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/statistics-for-ml.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-chat-app.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-chat-app.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-e-commerce-store.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-e-commerce-store.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-message-broker.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-message-broker.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-pastebin.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-pastebin.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/workflow-patterns.html</loc>
+    <loc>http://localhost:54074/workflow-patterns.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/index.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/03-llms-genai/index.html</loc>
+    <loc>http://localhost:54074/03-llms-genai/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/code-review-qa.html</loc>
+    <loc>http://localhost:54074/code-review-qa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/data-feature-engineering.html</loc>
+    <loc>http://localhost:54074/data-feature-engineering.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/environment-secrets.html</loc>
+    <loc>http://localhost:54074/environment-secrets.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/feature-engineering.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/feature-engineering.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/linked-lists.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/linked-lists.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/llm-parameters.html</loc>
+    <loc>http://localhost:54074/llm-parameters.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/low-level-languages.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/low-level-languages.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/network-layer.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/network-layer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/processes.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/processes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/rag-orchestration.html</loc>
+    <loc>http://localhost:54074/rag-orchestration.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/registers.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/registers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/sql-language.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/sql-language.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/stateless-vs-stateful.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/stateless-vs-stateful.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/switch.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/switch.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/testing.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/testing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-booking-system.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-booking-system.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-load-balancer.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-load-balancer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-notification-system.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-notification-system.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-video-stream.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-video-stream.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/index.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/04-building-ai-systems/index.html</loc>
+    <loc>http://localhost:54074/04-building-ai-systems/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/ai-agents.html</loc>
+    <loc>http://localhost:54074/ai-agents.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/ci-cd.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/ci-cd.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/common-pitfalls.html</loc>
+    <loc>http://localhost:54074/common-pitfalls.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/cpu.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/cpu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/docker-containers.html</loc>
+    <loc>http://localhost:54074/docker-containers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/garbage-collection.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/garbage-collection.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/message-queues.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/message-queues.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/model-landscape.html</loc>
+    <loc>http://localhost:54074/model-landscape.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/normalization.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/normalization.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/stacks-queues.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/stacks-queues.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/subnetting.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/subnetting.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/supervised-learning.html</loc>
+    <loc>http://localhost:54074/supervised-learning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/supervised-learning.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/supervised-learning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-forum.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-forum.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-job-scheduler.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-job-scheduler.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-key-value-store.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-key-value-store.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-live-stream.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-live-stream.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/threads.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/threads.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/transistor.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/transistor.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/index.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/05-ai-assisted-development/index.html</loc>
+    <loc>http://localhost:54074/05-ai-assisted-development/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/acid-properties.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/acid-properties.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/boolean-logic.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/boolean-logic.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/building-agents.html</loc>
+    <loc>http://localhost:54074/building-agents.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/deployment-strategies.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/deployment-strategies.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/hash-tables.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/hash-tables.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/high-level-languages.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/high-level-languages.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/instruction-cycle.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/instruction-cycle.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/prompt-engineering.html</loc>
+    <loc>http://localhost:54074/prompt-engineering.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/pubsub-systems.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/pubsub-systems.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/routing.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/routing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/scheduling.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/scheduling.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/sql-databases.html</loc>
+    <loc>http://localhost:54074/sql-databases.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-blob-store.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-blob-store.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-rate-limiter.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-rate-limiter.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-ride-hailing-app.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-ride-hailing-app.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-social-graph.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-social-graph.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/unsupervised-learning.html</loc>
+    <loc>http://localhost:54074/unsupervised-learning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/unsupervised-learning.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/unsupervised-learning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/index.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/apis-http.html</loc>
+    <loc>http://localhost:54074/apis-http.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/concurrency.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/concurrency.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/context-engineering.html</loc>
+    <loc>http://localhost:54074/context-engineering.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/event-sourcing-cqrs.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/event-sourcing-cqrs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/hash-collisions.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/hash-collisions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/indexing.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/indexing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/infrastructure-as-code.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/infrastructure-as-code.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/logic-gates.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/logic-gates.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/multi-agent-systems.html</loc>
+    <loc>http://localhost:54074/multi-agent-systems.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/neural-networks.html</loc>
+    <loc>http://localhost:54074/neural-networks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/ram.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/ram.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/reinforcement-learning.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/reinforcement-learning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-api-gateway.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-api-gateway.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-collaborator.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-collaborator.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-payment-gateway.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-payment-gateway.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-web-crawler.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-web-crawler.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/toolchain.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/toolchain.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/transport-layer-tcp.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/transport-layer-tcp.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/index.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/authentication-authn.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/authentication-authn.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/cdns.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/cdns.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/combinational-circuits.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/combinational-circuits.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/compilers-interpreters.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/compilers-interpreters.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/data-formats.html</loc>
+    <loc>http://localhost:54074/data-formats.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/finetuning-deployment.html</loc>
+    <loc>http://localhost:54074/finetuning-deployment.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/memory-hierarchy.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/memory-hierarchy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/model-context-protocol.html</loc>
+    <loc>http://localhost:54074/model-context-protocol.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/neural-networks.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/neural-networks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/query-optimization.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/query-optimization.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/synchronization.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/synchronization.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-analytics-engine.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-analytics-engine.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-cloud-drive.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-cloud-drive.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/the-id-generator.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/the-id-generator.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/the-map.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/the-map.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/training-inference.html</loc>
+    <loc>http://localhost:54074/training-inference.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/transport-layer-udp.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/transport-layer-udp.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/trees.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/trees.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/index.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/authorization-authz.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/authorization-authz.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/binary-counting.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/binary-counting.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/binary-search-trees.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/binary-search-trees.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/bus.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/bus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/data-structures.html</loc>
+    <loc>http://localhost:54074/data-structures.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/deadlocks.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/deadlocks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/distributed-consensus.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/distributed-consensus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/learning-process.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/learning-process.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/multimodal-ai.html</loc>
+    <loc>http://localhost:54074/multimodal-ai.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/ports-sockets.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/ports-sockets.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-ad-engine.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-ad-engine.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-metrics-system.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-metrics-system.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/transactions.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/transactions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/variables-scope.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/variables-scope.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/index.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/ai-safety-security.html</loc>
+    <loc>http://localhost:54074/ai-safety-security.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/auth-protocols.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/auth-protocols.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/computer-vision.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/computer-vision.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/data-types.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/data-types.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/database-migrations.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/database-migrations.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/distributed-transactions.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/distributed-transactions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/dns.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/dns.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/hdd-storage.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/hdd-storage.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/heaps.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/heaps.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/hexadecimal.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/hexadecimal.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/memory-management.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/memory-management.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/system-design-basics.html</loc>
+    <loc>http://localhost:54074/system-design-basics.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-blockchain.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-blockchain.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-search-engine.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-search-engine.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/index.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/binary-arithmetic.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/binary-arithmetic.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/common-terminology.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/common-terminology.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/graphs.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/graphs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/http.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/http.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/idempotency.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/idempotency.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/llm-evaluation.html</loc>
+    <loc>http://localhost:54074/llm-evaluation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/nosql-databases.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/nosql-databases.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/session-management.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/session-management.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/ssd-storage.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/ssd-storage.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/static-vs-dynamic-typing.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/static-vs-dynamic-typing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/swapping.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/swapping.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/the-auth-system.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/the-auth-system.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/the-global-search.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/the-global-search.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/11-applied-engineering-utilities-services/index.html</loc>
+    <loc>http://localhost:54074/_archive/11-applied-engineering-utilities-services/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/control-flow.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/control-flow.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/cryptography.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/cryptography.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/fault-tolerance.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/fault-tolerance.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/file-systems.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/file-systems.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/io-mechanisms.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/io-mechanisms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/inference-vs-training.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/inference-vs-training.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/mlops-cloud-platforms.html</loc>
+    <loc>http://localhost:54074/mlops-cloud-platforms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/negative-numbers.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/negative-numbers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/replication.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/replication.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/tls-ssl.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/tls-ssl.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/tries.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/tries.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/12-applied-engineering-consumer-applications/index.html</loc>
+    <loc>http://localhost:54074/_archive/12-applied-engineering-consumer-applications/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/bloom-filters.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/bloom-filters.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/browser.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/browser.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/consistent-hashing.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/consistent-hashing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/floating-point.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/floating-point.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/functions.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/functions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/gpu.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/gpu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/permissions.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/permissions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/sharding.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/sharding.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/transformers.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/transformers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/web-attacks.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/web-attacks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/13-infrastructure-middleware-design/index.html</loc>
+    <loc>http://localhost:54074/_archive/13-infrastructure-middleware-design/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/bitwise-operations.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/bitwise-operations.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/cap-theorem.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/cap-theorem.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/how-llms-work.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/how-llms-work.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/moores-law.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/moores-law.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/network-attacks.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/network-attacks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/recursion.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/recursion.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/sorting-simple.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/sorting-simple.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/system-calls.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/system-calls.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/unique-ids.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/unique-ids.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/web-communication.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/web-communication.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/14-internet-scale-architectures/index.html</loc>
+    <loc>http://localhost:54074/_archive/14-internet-scale-architectures/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/apis.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/apis.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/caching-strategies.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/caching-strategies.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/data-centers.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/data-centers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/microservices.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/microservices.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/paradigm-imperative.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/paradigm-imperative.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/sampling-parameters.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/sampling-parameters.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/09-software-engineering-security/security-best-practices.html</loc>
+    <loc>http://localhost:54074/_archive/09-software-engineering-security/security-best-practices.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/sorting-efficient.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/sorting-efficient.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/task-automation.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/task-automation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/text-encoding.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/text-encoding.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/07-databases/data-engineering.html</loc>
+    <loc>http://localhost:54074/_archive/07-databases/data-engineering.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/data-formats.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/data-formats.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/image-representation.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/image-representation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/output-control.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/output-control.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/paradigm-oop.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/paradigm-oop.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/02-hardware-architecture/quantum-computing.html</loc>
+    <loc>http://localhost:54074/_archive/02-hardware-architecture/quantum-computing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/search-algorithms.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/search-algorithms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/service-mesh.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/service-mesh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/virtualization.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/virtualization.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/containers.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/containers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/graph-traversal.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/graph-traversal.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/06-networking/network-security.html</loc>
+    <loc>http://localhost:54074/_archive/06-networking/network-security.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/observability.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/observability.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/paradigm-functional.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/paradigm-functional.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/prompt-caching.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/prompt-caching.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/sound-representation.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/sound-representation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/05-operating-systems/container-orchestration.html</loc>
+    <loc>http://localhost:54074/_archive/05-operating-systems/container-orchestration.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/design-patterns.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/design-patterns.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/model-landscape.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/model-landscape.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/pathfinding.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/pathfinding.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/08-scalable-system-design/serverless.html</loc>
+    <loc>http://localhost:54074/_archive/08-scalable-system-design/serverless.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/video-representation.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/video-representation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/compression-algorithms.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/compression-algorithms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/04-algorithms-data-structures/dynamic-programming.html</loc>
+    <loc>http://localhost:54074/_archive/04-algorithms-data-structures/dynamic-programming.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/error-handling.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/error-handling.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/fine-tuning-vs-prompting.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/fine-tuning-vs-prompting.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/01-digital-fundamentals/error-detection.html</loc>
+    <loc>http://localhost:54074/_archive/01-digital-fundamentals/error-detection.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/model-hosting-platforms.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/model-hosting-platforms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/regex.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/regex.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/03-programming-fundamentals/environment-variables.html</loc>
+    <loc>http://localhost:54074/_archive/03-programming-fundamentals/environment-variables.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/rag-architecture.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/rag-architecture.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/rag-pipeline.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/rag-pipeline.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/vector-databases.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/vector-databases.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/vector-search.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/vector-search.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/rag-orchestration.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/rag-orchestration.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/ai-agents.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/ai-agents.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/agentic-reasoning.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/agentic-reasoning.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/building-agents.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/building-agents.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/model-context-protocol.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/model-context-protocol.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/advanced-prompting.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/advanced-prompting.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/multimodal-image-video.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/multimodal-image-video.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/multimodal-speech-audio.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/multimodal-speech-audio.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/ai-safety-risks.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/ai-safety-risks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/ai-safety-best-practices.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/ai-safety-best-practices.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/llm-evaluation.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/llm-evaluation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/10-artificial-intelligence/use-cases-for-embeddings.html</loc>
+    <loc>http://localhost:54074/_archive/10-artificial-intelligence/use-cases-for-embeddings.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/_archive/index.html</loc>
+    <loc>http://localhost:54074/_archive/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/categories/index.html</loc>
+    <loc>http://localhost:54074/categories/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/tags/index.html</loc>
+    <loc>http://localhost:54074/tags/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:53632/index.html</loc>
+    <loc>http://localhost:54074/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

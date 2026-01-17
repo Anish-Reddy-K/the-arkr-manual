@@ -1,7 +1,7 @@
 ---
 title: "The AI Engineer's Handbook"
 ---
-The open-source guide to AI engineering. From neural network fundamentals to shipping production RAG systems and agents.
+The open-source blueprint for AI Engineering. A free, illustrated curriculum taking you from ML fundamentals to production AI systems.
 
 ## What is this?
 A structured curriculum for becoming an AI engineer. Clear explanations, visual diagrams, and practical knowledge — from ML foundations through LLMs, RAG architectures, and AI agents. No fluff. No scattered tutorials. Just a unified path to mastery.
