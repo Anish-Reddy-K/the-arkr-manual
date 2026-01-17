@@ -6,10 +6,10 @@
   'use strict';
 
   const words = [
-    "Computer Science.",
-    "Software Engineering.",
-    "Digital Systems.",
-    "System Design."
+    "AI Engineering.",
+    "Machine Learning.",
+    "LLM Systems.",
+    "RAG & Agents."
   ];
 
   const typewriterElement = document.getElementById('typewriter-text');
