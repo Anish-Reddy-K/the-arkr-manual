@@ -38,6 +38,7 @@ I am doing this completely for free, on my own time, simply because I just like 
 - **[Excalidraw](https://github.com/excalidraw/excalidraw):** for creating the visual diagrams.
 - **[HUGO](https://gohugo.io/):** to support my pipeline of obsidian(markdown) to the web(HTML).
 - **[Github](https://github.com/Anish-Reddy-K/the-arkr-manual.git):** where I store all my articles.
+- **[makingsoftware.com](https://www.makingsoftware.com/):** design inspiration.
 
 ## Development
 
